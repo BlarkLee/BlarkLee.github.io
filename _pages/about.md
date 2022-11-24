@@ -2,19 +2,19 @@
 layout: about
 title: about
 permalink: /
-subtitle: <p>UCSD ECE PhD student</p>
-          <p>Qualcomm Machine Learning Researcher</p>
-          <p>Percussionist/Drummer/Singer</p>
+subtitle: UCSD ECE PhD student in Computer Vision & Graphics<br>
+          Qualcomm Machine Learning Researcher<br>
+          Percussionist/Drummer, Singer
             
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_picture.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Franklin Antonio Hall</p>
-    <p>123 your address street</p>
-    <p>La Jolla, State 12345</p>
+    <p>3180 Voigt Dr</p>
+    <p>La Jolla, CA 92093</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
