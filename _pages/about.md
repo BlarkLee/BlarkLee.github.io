@@ -11,7 +11,7 @@ profile:
   align: right
   image: profile_picture.jpg
   image_circular: false # crops the image to make it circular
-  address:
+  address: <font size= "2"> UC San Diego</font>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
