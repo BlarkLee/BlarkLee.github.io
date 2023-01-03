@@ -11,8 +11,8 @@ profile:
   align: right
   image: profile_picture.jpg
   image_circular: false # crops the image to make it circular
-  address: <font size= "4"> University of California, San Diego</font> <br>
-           <font size= "4"> Department of Electrical and Computer Engineering</font>
+  address: <font size= "3"> University of California, San Diego</font> <br>
+           <font size= "3"> Department of Electrical and Computer Engineering</font>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
