@@ -12,9 +12,6 @@ profile:
   image: profile_picture.jpg
   image_circular: false # crops the image to make it circular
   address:
-    <p>UC, San Diego</p>
-    <p>Department of Electrical and Computer Engineering</p>
-    <p>Research Interest: 3D Reonstruction, Understanding and Reasoning</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
