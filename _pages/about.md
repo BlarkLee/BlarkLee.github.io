@@ -11,7 +11,7 @@ profile:
   align: right
   image: profile_picture.jpg
   image_circular: false # crops the image to make it circular
-  address: > 
+  address:
     <p>UC, San Diego</p>
     <p>Department of Electrical and Computer Engineering</p>
     <p>Research Interest: 3D Reonstruction, Understanding and Reasoning</p>
@@ -29,7 +29,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
 -->
 
-Yooo!!! My name is Blark, I’m a professional drummer pursuing a PhD in high-tech for fun! Just kidding :smile: :rofl: :rofl:! Anyway, I’m a fourth-year PhD student from UCSD, Department of Electrical & Computer Engineering. I got my master’s degree from UCSD ECE department in March. 2021, with a specialization in Signal & Image Processing, and continued to my PhD in UCSD Video Processing Lab under supervision of Prof. Truong Nguyen. I started a long-term cooperation with Qualcomm R&D XR/CV team from 2021 summer as a Deep Learning Researcher intern.
+Yooo!!! My name is Blark, I’m a professional drummer pursuing a PhD in high-tech for fun! Just kidding :smile: :smile: :smile:! Anyway, I’m a fourth-year PhD student from UCSD, Department of Electrical & Computer Engineering. I got my master’s degree from UCSD ECE department in March. 2021, with a specialization in Signal & Image Processing, and continued to my PhD in UCSD Video Processing Lab under supervision of Prof. Truong Nguyen. I started a long-term cooperation with Qualcomm R&D XR/CV team from 2021 summer as a Deep Learning Researcher intern.
 
 My research focuses on Computer Vision & Graphics, specifically on very important areas including the cross-cutting area of 2D/3D vision, understanding, and learning strategies, where my research benefits a wide range of industrial applications such as Robotics, Autonomous Driving, XR/VR. In Qualcomm, I work on many SOTA problems including 3D body/hand modeling & tracking, 3D scene reconstruction, understanding & reasoning.
 
