@@ -3,9 +3,9 @@ layout: about
 title: about
 permalink: /
 subtitle: UCSD ECE PhD student in Computer Vision & Graphics<br>
-          Qualcomm Deep Learning Researcher<br>
-          Percussionist/Drummer, Singer
-          Percussionist in UCSD Symphonic Orchestra
+          Qualcomm R&D Deep Learning Researcher<br>  
+          Percussionist in UCSD Symphonic Orchestra, Singer<br>
+          Entrepreneur
             
 
 profile:
