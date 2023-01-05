@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Paper got accepted by ECCV 2022!!!
 date: 2022-07-03 16:11:00-0400
 inline: true
 ---
+Paper got accepted by ECCV 2022!!!
+
 <!--
 inline: false
 ---
