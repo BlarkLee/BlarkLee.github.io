@@ -12,8 +12,8 @@ github_repos:
   #- jpswalsh/academicons
   #- mathjax/MathJax
   
-  - MonoPLFlowNet
-  - SM3D
-  - GMWCNN
-  - Big-data
+  - blarklee/MonoPLFlowNet
+  - blarklee/SM3D
+  - blarklee/GMWCNN
+  - blarklee/Big-data
   
