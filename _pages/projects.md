@@ -2,10 +2,10 @@
 layout: page
 title: music
 permalink: /projects/
-description: A growing collection of my music!!!
+description: A growing collection of my music! Coming Soon!!!
 nav: true
 nav_order: 1
-display_categories: [Drums, Songs]
+display_categories: [Symphonic Orchestra, Drums, Songs]
 horizontal: true
 ---
 

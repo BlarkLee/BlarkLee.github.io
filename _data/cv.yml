@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Runfa Li
+      value: Runfa (Blark) Li
     - name: Date of Birth
       value: 10th April 1997
     - name: Languages
@@ -13,35 +13,37 @@
   contents:
     - title: PhD
       institution: University of California, San Diego
-      year: ongoing
+      year: 2021 - 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Deparment of Electrical & Computer Engineering
+        - UCSD Video Processing Lab
+        - title: Research in Computer Vision & Graphics
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - Focus on 3D Reconstruction, Understanding & Reasoning
+            - Research contributes to Robotics, XR/VR, Autonomous Driving
     - title: Master
       institution: University of California, San Diego
       year: 2021
       description:
-        - UCSD Deparment of Electrical & Computer Engineering
-        - Signal & Image Processing
+        - Deparment of Electrical & Computer Engineering
+        - Major in Signal & Image Processing
 
 - title: Experience
   type: time_table
   contents:
     - title: Deep Learning Researcher in Computer Vision
-      institution: Qualcomm R&D
-      year: 2021 - present
+      institution: Qualcomm R&D 
+      year: 2021 - 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Computer Vision - XR/VR team
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-
+            - 3D reconstruction & understanding
+            - Body/hand modeling, reconstruction & tracking
+    - title: Percussionist
+      institution: UCSD Symphonic Orchestra
+      year: 2023 -
+      description:
+        - Play percussion instruments in the orchestra
 
 #- title: Open Source Projects
   #type: time_table
@@ -61,19 +63,20 @@
       #items: 
         #- Max Planck Medal
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+#- title: Academic Interests
+  #type: nested_list
+  #contents:
+    #- title: Topic 1.
+      #items: 
+        #- Description 1.
+        #- Description 2.
+    #- title: Topic 2.
+      #items:
+        #- Description 1.
+        #- Description 2.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    #- <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Drum, Guitar, Singing, Basketball, Swimming, Cycling, Runing, Hiking, Reading
