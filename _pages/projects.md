@@ -1,12 +1,12 @@
 ---
 layout: page
-title: projects
+title: music
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A growing collection of my music!!!
 nav: true
-nav_order: 2
-display_categories: [work, fun]
-horizontal: false
+nav_order: 1
+display_categories: [Drums, Songs]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
