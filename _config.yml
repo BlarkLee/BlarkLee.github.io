@@ -71,7 +71,7 @@ github_username: BlarkLee # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: runfa-li-261747151 # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: 6XzUmcIAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
@@ -113,10 +113,10 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: Music # blog_name will be displayed in your blog page
-blog_nav_title: Music # your blog must have a title for it to be displayed in the nav bar
-blog_description: Coming soon !!! #a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+#blog_name: Music # blog_name will be displayed in your blog page
+#blog_nav_title: Music # your blog must have a title for it to be displayed in the nav bar
+#blog_description: Coming soon !!! #a simple whitespace theme for academics
+#permalink: /blog/:year/:title/
 
 # Pagination
 #pagination:
