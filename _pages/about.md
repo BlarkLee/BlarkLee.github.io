@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: UCSD ECE PhD student in Computer Vision & Graphics<br>
           Qualcomm R&D Deep Learning Researcher<br>  
-          Percussionist in UCSD Symphonic Orchestra, Singer<br>
+          Percussionist in UCSD Symphonic Orchestra, Drummer, Singer<br>
           Entrepreneur
             
 
