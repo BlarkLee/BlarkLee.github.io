@@ -4,7 +4,7 @@ title: music
 permalink: /projects/
 description: A growing collection of my music! Coming Soon!!!
 nav: true
-nav_order: 1
+nav_order: 2
 display_categories: [Symphonic Orchestra, Drums, Songs]
 horizontal: true
 ---

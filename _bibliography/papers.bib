@@ -3,6 +3,271 @@
 
 @string{aps = {American Physical Society,}}
 
+@misc{DexFuture,
+      title={DexFuture: Hierarchical Future-State Visuomotor Targeting for Bimanual Dexterous Tool Use}, 
+      author={Runfa Blark Li and Kuang-Ting Tu and Nikola Raicevic and Dwait Bhatt and Xinshuang Liu and Keito Suzuki and Ki Myung Brian Lee and Nikolay Atanasov and Truong Nguyen},
+      year={2026},
+      howpublished={Under review},
+      eprint={2606.05699},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2606.05699}, 
+    abstract = {Bimanual dexterous tool use remains challenging for robots due to high-dimensional hand configurations and complex hand-tool-object dynamics and contact. 
+    Most existing control policies depend on future configuration references provided from demonstrations, while future action-conditioned world models require slow online planning over high-dimensional action sequences. 
+    A significant challenge is generating a dynamically consistent future reference trajectory without relying on privileged states from demonstrations or slow counterfactual planning. 
+    We propose DexFuture, a hierarchical system that couples a high-level Future-State Visuomotor Target Predictor with a low-level Target-Conditioned Structured Dexterous Policy. 
+    Conditioned on egocentric RGB, proprioceptive and geometric history, the high-level predictor constructs structured hand-tool-object visuomotor embeddings and uses a horizon-conditioned transformer to generate a multi-step future target trajectory. 
+    Then, the low-level policy tracks them with a target-conditioned per-link transformer. This hierarchy decouples coarse future reference generation from fine-grained action control, 
+    and slow long-horizon semantic prediction from high-frequency execution. On OakInk2 bimanual tool-use tasks, DexFuture achieves 90% of the privileged-oracle performance, 
+    compared to 7% for a no-reference policy. DexFuture operates at 60 Hz, approximately 250 times faster than DexWM-style Cross-Entropy Method (CEM) planning with a future action-conditioned world model.},
+    preview = {dexfuture.png},
+    bibtex_show={true},
+    website={https://blarklee.github.io/DexFuture_official_website/},
+    selected=true,
+    arxiv={2606.05699},
+    html={https://arxiv.org/abs/2606.05699}
+}
+
+@misc{physgraph,
+      title={PhysGraph: Physically-Grounded Graph-Transformer Policies for Bimanual Dexterous Hand-Tool-Object Manipulation}, 
+      author={Runfa Blark Li and David Kim and Xinshuang Liu and Keito Suzuki and Dwait Bhatt and Nikola Raicevic and Xin Lin and Ki Myung Brian Lee and Nikolay Atanasov and Truong Nguyen},
+      year={2026},
+      howpublished={Under review},
+      eprint={2603.01436},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2603.01436}, 
+    abstract = {Bimanual dexterous manipulation, particularly involving complex tool use, remains a formidable challenge in embodied AI due to the high-dimensional state space and sophisticated contact dynamics required to coordinate multi-fingered hands. 
+    Existing state-of-the-art (SOTA) methods typically rely on global policy that treat the system state as a flattened vector, thereby discarding the rich structural and topological information inherent to articulated hands. 
+    To address this, we present PhysGraph, a novel physically-grounded graph-transformer policy designed explicitly for challenging bimanual hand-tool-object manipulation. Unlike prior works, 
+    we formulate the bimanual system as a kinematic graph and introduce a per-link tokenization strategy that preserves fine-grained local state information. Crucially, 
+    we propose a physically-grounded bias generator that injects learning-based structural priors—including kinematic spatial distance, dynamic contact states, geometric proximity, 
+    and anatomical properties—directly into the attention mechanism. This allows the policy to explicitly reason about physical connectivity and interaction logic rather than learning it implicitly from sparse rewards. 
+    Extensive experiments on the OakInk2 dataset demonstrate that PhysGraph significantly outperforms baselines in manipulation precision and task success rates. 
+    Furthermore, the inherent topological flexibility of our architecture enables zero-shot generalization to unseen tool/object geometries, and embodiment-agnostic deployment across diverse robotic hands (Shadow, Allegro, Inspire).},
+    preview = {physgraph.gif},
+    bibtex_show={true},
+    html={https://arxiv.org/abs/2603.01436},
+    code={https://github.com/BlarkLee/PhysGraph},
+    arxiv={2603.01436},
+    website={https://blarklee.github.io/PhysGraph_website_official/},
+    selected=true,
+}
+
+@inproceedings{sriwflow,
+    author = {Liu, Xinshuang and Li, Runfa Blark and Wei, Shaoxiu and Nguyen, Truong},
+    title = {SRIW-Flow: Score-Regularized Joint Sampling with Importance Weights for Flow Matching},
+    booktitle = {The 42nd Conference on Uncertainty in Artificial Intelligence (UAI)},
+    year = {2026},
+    abstract = {Flow matching models effectively represent complex distributions, yet estimating expectations of functions of their outputs remains challenging under limited sampling budgets. 
+    Independent sampling often yields high-variance estimates, especially when rare but high-impact outcomes dominate the expectation. We propose a non-IID sampling framework that jointly draws multiple samples to cover diverse, 
+    salient regions of a flow matching model's generative distribution. To balance diversity and quality, we introduce a score-based regularization for the diversity mechanism (SR), 
+    which uses the score function, i.e., the gradient of the log probability, to ensure samples are pushed apart within high-density regions of the data manifold, 
+    mitigating off-manifold drift. To enable unbiased estimation when desired, we further develop an approach for importance weighting of non-IID flow samples 
+    by learning a residual velocity field that reproduces the marginal distribution of the non-IID samples and by evolving importance weights along trajectories. 
+    Empirically, our method produces diverse, high-quality samples and accurate estimates of both importance weights and expectations, 
+    advancing the reliable characterization of flow matching model outputs. },
+    preview = {sriwflow.gif},
+    bibtex_show={true},
+    html={https://arxiv.org/pdf/2511.17812},
+    code={https://github.com/XinshuangL/SRIW-Flow},
+    arxiv={2511.17812},
+    website={https://xinshuangl.github.io/SRIW-Flow/},
+    selected=true,
+}
+
+@inproceedings{SplatSDF,
+    author = {Li, Runfa Blark and Suzuki, Keito and Du, Bang and Lee, K. M. Brian and Atanasov, Nikolay and Nguyen, Truong},
+    title = {SplatSDF: Boosting Neural Implicit SDF via Gaussian Splatting Fusion},
+    booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+    year = {2026},
+    abstract = {Signed distance-radiance field (SDF-NeRF) is a promising environment representation that offers both photorealistic rendering and geometric reasoning such as proximity
+    queries for collision avoidance. However, the slow training speed and convergence of SDF-NeRF hinder their use in practical robotic systems. We propose SplatSDF, a novel SDF-NeRF 
+    architecture that accelerates convergence using 3D Gaussian splats (3DGS), which can be quickly pre-trained. Unlike prior approaches that introduce a consistency loss between separate
+    3DGS and SDF-NeRF models, SplatSDF directly fuses 3DGS at an architectural level by consuming it as an input to SDFNeRF during training. This is achieved using a novel sparse 3DGS fusion strategy 
+    that injects neural embeddings of 3DGS into SDF-NeRF around the object surface, while also permitting inference without 3DGS for minimal operation. 
+    Experimental results show SplatSDF achieves 3× faster convergence to the same geometric accuracy than the best baseline, 
+    and outperforms state-of-the-art SDF-NeRF methods in terms of chamfer distance and peak signal to noise ratio, unlike consistency loss-based approaches that in fact provide limited gains. 
+    We also present computational techniques for accelerating gradient and Hessian steps by 3×. We expect these improvements will contribute to deploying SDF-NeRF on practical systems.},
+    preview = {splatsdf.png},
+    bibtex_show={true},
+    html={https://arxiv.org/pdf/2411.15468},
+    code={https://github.com/BlarkLee/SplatSDF_official},
+    arxiv={2411.15468},
+    website={https://blarklee.github.io/splatsdf/},
+    selected=true,
+}
+
+@InProceedings{HumanOrbit,
+    author    = {Suzuki, Keito and Chen, Kunyao and Wang, Lei and Du, Bang and Li, Runfa Blark and Liu, Peng and Bi, Ning and Nguyen, Truong},
+    title     = {HumanOrbit: 3D Human Reconstruction as 360deg Orbit Generation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
+    year      = {2026},
+    pages     = {624-634},
+    abstract = {We present a method for generating a full 360deg orbit video around a person from a single input image. 
+    Existing methods typically adapt image-based diffusion models for multi-view synthesis, but yield inconsistent results across views and with the original identity. 
+    In contrast, recent video diffusion models have demonstrated their ability in generating photorealistic results that align well with the given prompts. Inspired by these results, 
+    we propose HumanOrbit, a video diffusion model for multi-view human image generation. Our approach enables the model to synthesize continuous camera rotations around the subject, 
+    producing geometrically consistent novel views while preserving the appearance and identity of the person. Using the generated multi-view frames, 
+    we further propose a reconstruction pipeline that recovers a textured mesh of the subject. Experimental results validate the effectiveness of HumanOrbit for multi-view image generation 
+    and that the reconstructed 3D models exhibit superior completeness and fidelity compared to those from state-of-the-art baselines.},
+    preview = {humanorbit.gif},
+    bibtex_show={true},
+    selected=true,
+}
+
+@INPROCEEDINGS{waveletgaussian,
+  author={Nguyen, Hung and Li, Runfa and Le, An and Nguyen, Truong},
+  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={WaveletGaussian: Wavelet-Domain Diffusion for Sparse-View 3D Gaussian Object Reconstruction}, 
+  year={2026},
+  pages={9892-9896},
+  keywords={Filtering;Filters;Low-pass filters;Band-pass filters;Circuits and systems;Filter banks;High frequency;LoRa;Videos;Protocols;Sparse-view 3DGS;wavelet transform;3D object reconstruction;diffusion model;neural rendering},
+  doi={10.1109/ICASSP55912.2026.11460897},
+  abstract = {We present a method for generating a full 360deg orbit video around a person from a single input image. 
+    Existing methods typically adapt image-based diffusion models for multi-view synthesis, but yield inconsistent results across views and with the original identity. 
+    In contrast, recent video diffusion models have demonstrated their ability in generating photorealistic results that align well with the given prompts. Inspired by these results, 
+    we propose HumanOrbit, a video diffusion model for multi-view human image generation. Our approach enables the model to synthesize continuous camera rotations around the subject, 
+    producing geometrically consistent novel views while preserving the appearance and identity of the person. Using the generated multi-view frames, 
+    we further propose a reconstruction pipeline that recovers a textured mesh of the subject. Experimental results validate the effectiveness of HumanOrbit for multi-view image generation 
+    and that the reconstructed 3D models exhibit superior completeness and fidelity compared to those from state-of-the-art baselines.},
+  html={https://ieeexplore.ieee.org/abstract/document/11460897},
+  arxiv={2509.19073},
+  preview = {waveletgs.png},
+  bibtex_show={true},
+  selected=true,}
+
+@inproceedings{dynagslam,
+    author = {Li, Runfa Blark and Shaghaghi, Mahdi and Suzuki, Keito and Liu, Xinshuang and Moparthi, Varun and Du, Bang and Curtis, Walker and Renschler, Martin and Lee, K. M. Brian and Atanasov, Nikolay and Nguyen, Truong},
+    title = {DynaGSLAM: Real-Time Gaussian-Splatting SLAM for Online Rendering, Tracking, Motion Predictions of Moving Objects in Dynamic Scenes},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    year = {2026},
+    abstract = {Simultaneous Localization and Mapping (SLAM) is one of the most important environment-perception and navigation algorithms for computer vision, robotics, 
+    and autonomous cars/drones. Hence, high quality and fast mapping becomes a fundamental problem. With the advent of 3D Gaussian Splatting (3DGS) as an 
+    explicit representation with excellent rendering quality and speed, state-ofthe-art (SOTA) works introduce GS to SLAM. Compared to classical pointcloud-SLAM, 
+    GS-SLAM generates photometric information by learning from input camera views and synthesizing unseen views with high-quality textures. 
+    However, these GS-SLAM fail when moving objects occupy the scene that violates the static assumption of bundle adjustment. 
+    The failed updates of moving GS affects the static GS and contaminates the full map over the video sequence. 
+    Although some efforts have been made by concurrent works to consider moving objects for GS-SLAM, they simply detect and remove the moving regions from 
+    GS rendering (“anti” dynamic GS-SLAM), where only the static background could benefit from GS. To this end, we propose the first real-time GS-SLAM, “DynaGSLAM”, 
+    that achieves high-quality online GS rendering, tracking, motion predictions of moving objects in dynamic scenes while jointly estimating accurate ego motion. 
+    Our DynaGSLAM outperforms SOTA static & “Anti” dynamic GS-SLAM on three dynamic real datasets, while keeping speed and memory efficiency in practice. https://blarklee.github.
+io/dynagslam/},
+    preview = {dynagslam_trim.gif},
+    bibtex_show={true},
+    html={https://openaccess.thecvf.com/content/WACV2026/papers/Li_DynaGSLAM_Real-Time_Gaussian-Splatting_SLAM_for_Online_Rendering_Tracking_Motion_Predictions_WACV_2026_paper.pdf},
+    code={https://github.com/BlarkLee/DynaGSLAM_official},
+    website={https://blarklee.github.io/dynagslam/},
+    selected=true,
+}
+
+@INPROCEEDINGS{openhuman4d,
+  author={Suzuki, Keito and Du, Bang and Li, Runfa Blark and Chen, Kunyao and Nguyen, Truong},
+  booktitle={British Machine Vision Conference (BMVC) (Oral, Top 3\%)}, 
+  title={OpenHuman4D: Open-Vocabulary 4D Human Parsing}, 
+  year={2025},
+  abstract = {Understanding dynamic 3D human representation has become increasingly critical
+in virtual and extended reality applications. However, existing human part segmentation methods are constrained by reliance on closed-set datasets and prolonged inference
+times, which significantly restrict their applicability. In this paper, we introduce the
+first 4D human parsing framework that simultaneously addresses these challenges by reducing the inference time and introducing open-vocabulary capabilities. Building upon
+state-of-the-art open-vocabulary 3D human parsing techniques, our approach extends
+the support to 4D human-centric video with three key innovations: 1) We adopt maskbased video object tracking to efficiently establish spatial and temporal correspondences,
+avoiding the necessity of segmenting all frames. 2) A novel Mask Validation module
+is designed to manage new target identification and mitigate tracking failures. 3) We
+propose a 4D Mask Fusion module, integrating memory-conditioned attention and logits
+equalization for robust embedding fusion. Extensive experiments demonstrate the effectiveness and flexibility of the proposed method on 4D human-centric parsing tasks,
+achieving up to 93.3% acceleration compare},
+    preview = {openhuman4d.png},
+    bibtex_show={true},
+    html={https://bmva-archive.org.uk/bmvc/2025/assets/papers/Paper_566/paper.pdf},
+    selected=true,
+    arxiv={2507.09880},
+  }
+
+@InProceedings{coarse2fine,
+    author    = {Nguyen, Hung and Le, An and Li, Runfa Blark and Nguyen, Truong},
+    title     = {From Coarse to Fine: Learnable Discrete Wavelet Transforms for Efficient 3D Gaussian Splatting},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    year      = {2025},
+    pages     = {3170-3179},
+    abstract = {3D Gaussian Splatting has emerged as a powerful approach in novel view synthesis, delivering rapid training and rendering but at the cost of an ever-growing set of 
+    Gaussian primitives that strains memory and bandwidth. We introduce AutoOpti3DGS, a training-time framework that automatically restrains Gaussian proliferation without sacrificing 
+    visual fidelity. The key idea is to feed the input images to a sequence of learnable Forward and Inverse Discrete Wavelet Transforms, where low-pass filters are kept fixed, high-pass 
+    filters are learnable and initialized to zero, and an auxiliary orthogonality loss gradually activates fine frequencies. This wavelet-driven, coarse-to-fine process delays the formation 
+    of redundant fine Gaussians, allowing 3DGS to capture global structure first and refine detail only when necessary. Through extensive experiments, AutoOpti3DGS requires just a single filter 
+    learning-rate hyper-parameter, integrates seamlessly with existing efficient 3DGS frameworks, and consistently produces sparser scene representations more compatible with memory 
+    or storage-constrained hardware.},
+    preview = {coarse2fine.png},
+    bibtex_show={true},
+    html={https://openaccess.thecvf.com/content/ICCV2025W/ECLR/papers/Nguyen_From_Coarse_to_Fine_Learnable_Discrete_Wavelet_Transforms_for_Efficient_ICCVW_2025_paper.pdf},
+    arxiv={2506.23042},
+    selected=true,
+
+}
+
+
+@INPROCEEDINGS{openvocab,
+  author={Suzuki, Keito and Du, Bang and Krishnan, Girish and Chen, Kunyao and Li, Runfa Blark and Nguyen, Truong},
+  booktitle={2025 International Conference on 3D Vision (3DV)}, 
+  title={Open-Vocabulary Semantic Part Segmentation of 3D Human}, 
+  year={2025},
+  abstract = {3D part segmentation is still an open problem in the field of 3D vision and AR/VR. Due to limited 3D labeled data, traditional supervised segmentation methods fall short in generalizing to unseen shapes and categories. 
+  Recently, the advancement in vision-language models' zero-shot abilities has brought a surge in open-world 3D segmentation methods. While these methods show promising results for 3D scenes or objects, 
+  they do not generalize well to 3D humans. In this paper, we present the first open-vocabulary segmentation method capable of handling 3D human. Our framework can segment the human category into desired fine-grained parts based on the textual prompt. 
+  We design a simple segmentation pipeline, leveraging SAM to generate multi-view proposals in 2D and proposing a novel Human-CLIP model to create unified embeddings for visual and textual inputs. Compared with existing pre-trained CLIP models, 
+  the HumanCLIP model yields more accurate embeddings for human-centric contents. We also design a simple-yet-effective MaskFusion module, which classifies and fuses multi-view features into 3D semantic masks without complex voting and grouping mechanisms. 
+  The design of decoupling mask proposals and text input also significantly boosts the efficiency of per-prompt inference. Experimental results on various 3D human datasets show that our method outperforms current 
+  state-of-the-art open-vocabulary 3D segmentation methods by a large margin. In addition, we showthat our method can be directly applied to various 3D representations including meshes, 
+  point clouds, and 3D Gaussian Splatting.},
+    preview = {openvocab.png},
+    bibtex_show={true},
+    html={https://ieeexplore.ieee.org/abstract/document/11125577},
+    selected=true,
+    arxiv={2502.19782},
+  }
+
+@INPROCEEDINGS{thp3d,
+  author={Suzuki, Keito and Du, Bang and Chen, Kunyao and Li, Runfa Blark and Nguyen, Truong},
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV) Workshops}, 
+  title={THP3D: Text-Driven Multi-granularity 3D Human Parsing}, 
+  year={2024},
+  abstract = {Current methods for segmenting 3D human data usually rely on training with just one specific dataset. As 3D human datasets can differ greatly in terms of their class labels, 
+  content diversity, and overall quality, a model trained on one dataset may not generalize well to others. A conventional way to address the challenge is to manually unify the datasets’ 
+  classes into a single taxonomy for training. However, the adaptability of models is confined to the classes present in their initial training sets, which restricts their scalability with 
+  the introduction of new data. Additionally, a universal set of labels that satisfies all possible downstream applications remains elusive. To tackle these challenges, we present THP3D, 
+  a general 3D human parsing method enabling multi-granularity training and inference. Our model can accumulate knowledge from all datasets without manual label unification and supports 
+  arbitrary segmentation classes through user text inputs. To achieve this, we construct a new dataset (The dataset will be released to the public.) that augments the THuman2.0 dataset with 
+  highly detailed labels. It offers 12 labels that encapsulate both garment and chiral body part information, finer than existing ones. Experiments on various datasets show that our model 
+  demonstrates both strong performance and the ability to segment across various granularities.},
+    preview = {thp3d.png},
+    bibtex_show={true},
+    html={https://link.springer.com/chapter/10.1007/978-3-031-91575-8_4},
+    selected=true,
+  }
+
+@InProceedings{MonoSelfRecon,
+    author    = {Li, Runfa and Mahbub, Upal and Bhaskaran, Vasudev and Nguyen, Truong},
+    title     = {MonoSelfRecon: Purely Self-Supervised Explicit Generalizable 3D Reconstruction of Indoor Scenes from Monocular RGB Views},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    year      = {2024},
+    pages     = {656-666},
+    abstract = {Current monocular 3D scene reconstruction (3DR) works are either fully-supervised, or not generalizable, 
+    or implicit in 3D representation. We propose a novel framework - MonoSelfRecon that for the first time achieves
+    explicit 3D mesh reconstruction for generalizable indoor scenes with monocular RGB views by purely self supervision 
+    on voxel-SDF (signed distance function). MonoSelfRecon follows an Autoencoder-based architecture, decodes voxel-SDF and 
+    a generalizable Neural Radiance Field (NeRF), which is used to guide voxel-SDF in self-supervision. We propose novel self-supervised losses, 
+    which not only support pure self-supervision, but can be used together with supervised signals to further boost supervised training. 
+    Our experiments show that ”MonoSelfRecon” trained in pure self-supervision outperforms current best self-supervised indoor depth estimation models 
+    and is comparable to 3DR models trained in fully supervision with depth annotations. 
+    MonoSelfRecon is not restricted by specific model design, which can be used to any models with voxel-SDF for purely self-supervised manner.},
+    preview = {monoselfrecon.png},
+    bibtex_show={true},
+    html={https://openaccess.thecvf.com/content/CVPR2024W/3DMV/papers/Li_MonoSelfRecon_Purely_Self-Supervised_Explicit_Generalizable_3D_Reconstruction_of_Indoor_Scenes_CVPRW_2024_paper.pdf},
+    code={https://github.com/BlarkLee/MonoSelfRecon},
+    selected=true,
+
+}
+
 @InProceedings{MonoPLFlowNet,
 author={Li, Runfa and Nguyen, Truong},
 title={MonoPLFlowNet: Permutohedral Lattice FlowNet for Real-Scale 3D Scene Flow Estimation with Monocular Images},
@@ -15,6 +280,7 @@ abstract={Real-scale scene flow estimation has become increasingly important for
 preview={monoplflownet_demo.gif},
 bibtex_show={true},
 html={https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/1569_ECCV_2022_paper.php#},
+code={https://github.com/BlarkLee/MonoPLFlowNet},
 selected=true,
 doi="10.1007/978-3-031-19812-0_19"
 }
@@ -29,6 +295,7 @@ doi={10.1109/ICIP42928.2021.9506302},
 abstract={Mapping and 3D detection are two major issues in vision-based robotics, and self-driving. While previous works only focus on each task separately, we present an innovative and efficient multi-task deep learning framework (SM3D) for Simultaneous Mapping and 3D Detection by bridging the gap with robust depth estimation and “Pseudo-Lidar” point cloud for the first time. The Mapping module takes consecutive monocular frames to generate depth and pose estimation. In 3D Detection module, the depth estimation is projected into 3D space to generate “Pseudo-Lidar” point cloud, where Lidar-based 3D detector can be leveraged on point cloud for vehicular 3D detection and localization. By end-to-end training of both modules, the proposed mapping and 3D detection method outperforms the state-of-the-art baseline by 10.0% and 13.2% in accuracy, respectively. While achieving better accuracy, our monocular multi-task SM3D is more than 2 times faster than the state of the art pure stereo 3D detector, and 18.3% faster than using two modules separately.},
 bibtex_show={true},
 html={https://ieeexplore.ieee.org/document/9506302},
+code={https://github.com/BlarkLee/SM3D},
 selected=true,
 preview={sm3d_demo.gif}
 }
@@ -42,7 +309,7 @@ VOLUME = {19},
 YEAR = {2019},
 NUMBER = {1},
 ARTICLE-NUMBER = {177},
-HTML = {https://www.mdpi.com/1424-8220/19/1/177},
+html = {https://www.mdpi.com/1424-8220/19/1/177},
 ISSN = {1424-8220},
 ABSTRACT = {In recent years, along with the rapid development of relevant biological fields, there has been a tremendous motivation to combine molecular imprinting technology (MIT) with biosensing. In this situation, bioprobes and biosensors based on molecularly imprinted polymers (MIPs) have emerged as a reliable candidate for a comprehensive range of applications, from biomolecule detection to drug tracking. Unlike their precursors such as classic immunosensors based on antibody binding and natural receptor elements, MIPs create complementary cavities with stronger binding affinity, while their intrinsic artificial polymers facilitate their use in harsh environments. The major objective of this work is to review recent MIP bioprobes and biosensors, especially those used for biomolecules and drugs. In this review, MIP bioprobes and biosensors are categorized by sensing method, including optical sensing, electrochemical sensing, gravimetric sensing and magnetic sensing, respectively. The working mechanism(s) of each sensing method are thoroughly discussed. Moreover, this work aims to present the cutting-edge structures and modifiers offering higher properties and performances, and clearly point out recent efforts dedicated to introduce multi-sensing and multi-functional MIP bioprobes and biosensors applicable to interdisciplinary fields.},
 DOI = {10.3390/s19010177},

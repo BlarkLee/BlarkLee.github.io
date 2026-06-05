@@ -712,3 +712,15 @@ progress {
      display: block;
      height: inherit;
  }
+
+
+.publications .author em,
+.publications .author u,
+.publications .authors em,
+.publications .authors u,
+.publications .author-highlighted {
+  font-style: normal !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}

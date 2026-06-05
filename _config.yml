@@ -3,10 +3,10 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Blark
-middle_name: Runfa
-last_name: Lee 李润发
-email: rul002@ucsd.edu
+first_name: Runfa
+middle_name: Blark
+last_name: Li 李润发
+email: runfa@ucsd.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -71,9 +71,9 @@ github_username: BlarkLee # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: runfa-li-261747151 # your LinkedIn user name
+linkedin_username: runfa # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: 6XzUmcIAAAAJ # your Google Scholar ID
+scholar_userid: vntCBHQAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
@@ -92,7 +92,7 @@ lastfm_id: # your lastfm id
 spotify_id: # your spotify id
 pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
-instagram_id: blarklee # your instagram id
+instagram_id: blark.lee # your instagram id
 facebook_id: # your facebook id
 discord_id: # your discord id (18-digit unique numerical identifier)
 youtube_id: blarkrunfalee2585 # your youtube channel id (youtube.com/@<youtube_id>)
@@ -249,8 +249,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Li]
+  first_name: [Runfa Blark, Runfa]
 
   style: apa
   locale: en
@@ -276,7 +276,7 @@ scholar:
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3  # leave blank to always show all authors
+max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10  # more authors are revealed on click using animation; smaller delay means faster animation
 
 
