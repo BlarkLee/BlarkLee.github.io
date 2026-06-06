@@ -55,7 +55,7 @@ I am a Ph.D. candidate in Electrical and Computer Engineering (ECE) and affiliat
 
 My current research focuses on robotics and embodied intelligence, especially dexterous manipulation, bimanual tool use, visuomotor policy learning, world models/VLAs, humanoid modeling, and learning-based exoskeletons. I am particularly interested in building robotic and human-assistive systems that can acquire complex physical skills, reason about future physical interactions, and act with human-like dexterity.
 
-Previously, my work centered on 3D/4D computer vision, including dynamic SLAM, 3D Gaussian Splatting, neural scene reconstruction/generation, 3D scene flow, and human reconstruction. I have also worked with the Qualcomm XR/CV team on real-time visual perception and graphics systems for Snapdragon-based devices. 
+Previously, my work centered on 3D/4D computer vision, including dynamic SLAM, 3D Gaussian Splatting, neural scene reconstruction/generation, 3D scene flow, and human reconstruction. I have also worked with the Qualcomm XR/CV team on real-time visual SLAM and graphics systems for Snapdragon-based devices. 
 
 Outside of research, I am the chief percussionist in UCSD Symphony Orchestra, I am also a drummer and a singer. I have trained in percussion since childhood and have performed with many orchestras and bands in both China and the United States. Music remains an important part of my life and also motivates my long-term interest in robots and wearable systems that can assist, teach, and augment complex human skills.
 
