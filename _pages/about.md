@@ -4,8 +4,8 @@ title: about
 permalink: /
 subtitle: Ph.D. Candidate, Electrical and Computer Engineering, UC San Diego <br>
           Robotics · Embodiment Learning · Dexterous Manipulation · Exoskeleton · Computer Vision & Graphics <br>
-          Former Qualcomm XR Deep Learning Researcher<br>  
-          Percussionist in UCSD Symphonic Orchestra, Drummer, Singer<br>
+          Former Qualcomm XR & Computer Vision Research Scientist <br>  
+          Chief percussionist in UCSD Symphony Orchestra<br>
             
 
 profile:
