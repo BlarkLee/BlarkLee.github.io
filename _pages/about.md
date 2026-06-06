@@ -38,7 +38,8 @@ My research focuses on Computer Vision & Graphics, specifically on very importan
 Music is my life!!! I started professional percussion training at 4 years old in "Central Conservation of Music"(CCOM) - No.1 musical institute in China. I passed the highest professional certificate in CCOM for "snare drum" when I was 9 and spent 5 years in the No.1 youth symphonic orchestra in Beijing, from 7-12 years old. I will be serving in percussion part in UCSD Symphonic Orchestra from Jan. 2023. I am also actively seeking partners to form a band, and I am into metal/hard rock, blues, jazz! Pin me if you want a band! Let’s Rock California!!!
 -->
 
-I am a Ph.D. candidate in Electrical and Computer Engineering (ECE) and  <a href="https://contextualrobotics.ucsd.edu/">Contextual Robotics Institute</a> (CRI) at UC San Diego. I am advised by Prof. <a href="https://natanaso.github.io/">Nikolay Atanasov</a> in the <a href="https://erl.ucsd.edu/">UCSD Existential Robotics Laboratory</a> (ERL), and Prof. <a href="https://jacobsschool.ucsd.edu/people/profile/truong-q-nguyen">Truong Nguyen</a> in the <a href="https://sites.google.com/view/ucsdvpl/">UCSD Video Processing Lab</a> (VPL). My research lies at the intersection of robotics, embodiment intelligence, and computer vision, with a focus on building perception and learning systems that enable robots to understand, reconstruct, and interact with human and the physical world.
+<!-->
+I am a Ph.D. candidate in Electrical and Computer Engineering (ECE) and  <a href="https://contextualrobotics.ucsd.edu/">Contextual Robotics Institute</a> at UC San Diego. I am advised by Prof. <a href="https://natanaso.github.io/">Nikolay Atanasov</a> in the <a href="https://erl.ucsd.edu/">UCSD Existential Robotics Laboratory</a>, and Prof. <a href="https://jacobsschool.ucsd.edu/people/profile/truong-q-nguyen">Truong Nguyen</a> in the <a href="https://sites.google.com/view/ucsdvpl/">UCSD Video Processing Lab</a>.
 
 My recent work focuses on dexterous manipulation, bimanual tool use, humanoid modeling, learning-based exoskeleton, visuomotor world model/VLA, and policy learning. I am particularly interested in how robots and human-assistive/augmentation systems can acquire complex physical skills from visual, geometric, and motion cues. More broadly, my research vision is to develop intelligent systems that can perceive dynamic 3D environments, predict future physical interactions, and execute skillful actions with human-like dexterity.
 
@@ -47,6 +48,14 @@ Previously, my work focused on 3D/4D computer vision, neural scene reconstructio
 I received my M.S. degree from UC San Diego in 2021, with a specialization in Signal and Image Processing, ECE. I was a former Qualcomm XR deep learning researcher during 2021-2022, and summer 2024, where I worked on high-level tasks including dynamic visual rendering and SLAM for real-time XR devices equipped with Snapdragon chips, 3D body and hand modeling, tracking, reconstruction, and visual understanding, as well as low-level graphical Vulken engineering coding on Snapdragon.
 
 Outside of research, I am the chief percussionist in UCSD Symphony Orchestra, I am also a drummer and a singer. I have trained in percussion since childhood and have performed with many orchestras and bands in both China and the United States. Music remains an important part of my life and also motivates my long-term interest in robots and wearable systems that can assist, teach, or augment complex human skills.
+-->
+
+
+I am a Ph.D. candidate in Electrical and Computer Engineering (ECE) and  <a href="https://contextualrobotics.ucsd.edu/">Contextual Robotics Institute</a> at UC San Diego. I am advised by Prof. <a href="https://natanaso.github.io/">Nikolay Atanasov</a> in the <a href="https://erl.ucsd.edu/">UCSD Existential Robotics Laboratory</a>, and Prof. <a href="https://jacobsschool.ucsd.edu/people/profile/truong-q-nguyen">Truong Nguyen</a> in the <a href="https://sites.google.com/view/ucsdvpl/">UCSD Video Processing Lab</a>.
+
+My current research focuses on robotics and embodied intelligence, especially dexterous manipulation, bimanual tool use, visuomotor policy learning, world models/VLAs, humanoid modeling, and learning-based exoskeletons. I am particularly interested in building robotic and human-assistive systems that can acquire complex physical skills, reason about future physical interactions, and act with human-like dexterity.
+
+Previously, my work centered on 3D/4D computer vision, including dynamic SLAM, 3D Gaussian Splatting, neural scene reconstruction/generation, 3D scene flow, and human reconstruction. I have also worked with the Qualcomm XR/CV team on real-time visual perception and graphics systems for Snapdragon-based devices. Outside research, I am a percussionist, drummer, and singer, and currently serve as the chief percussionist of the UCSD Symphony Orchestra.
 
 
 
