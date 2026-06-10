@@ -51,7 +51,7 @@ Outside of research, I am the chief percussionist in UCSD Symphony Orchestra, I 
 -->
 
 
-I am a Ph.D. candidate in Electrical and Computer Engineering (ECE) and affiliated with <a href="https://contextualrobotics.ucsd.edu/">Contextual Robotics Institute</a> at UC San Diego. I am advised by Prof. <a href="https://natanaso.github.io/">Nikolay Atanasov</a> in the <a href="https://erl.ucsd.edu/">UCSD Existential Robotics Laboratory</a>, and Prof. <a href="https://jacobsschool.ucsd.edu/people/profile/truong-q-nguyen">Truong Nguyen</a> in the <a href="https://sites.google.com/view/ucsdvpl/">UCSD Video Processing Lab</a>.
+I am a Ph.D. candidate in Electrical and Computer Engineering (ECE) and affiliated with <a href="https://contextualrobotics.ucsd.edu/">Contextual Robotics Institute</a> at UC San Diego. I am advised by Prof. <a href="https://natanaso.github.io/">Nikolay Atanasov</a> in the <a href="https://erl.ucsd.edu/">UCSD Existential Robotics Lab</a>, and Prof. <a href="https://jacobsschool.ucsd.edu/people/profile/truong-q-nguyen">Truong Nguyen</a> in the <a href="https://sites.google.com/view/ucsdvpl/">UCSD Video Processing Lab</a>.
 
 My current research focuses on robotics and embodied intelligence, especially dexterous manipulation, bimanual tool use, visuomotor policy learning, world models/VLAs, humanoid modeling, and learning-based exoskeletons. I am particularly interested in building robotic and human-assistive systems that can acquire complex physical skills, reason about future physical interactions, and act with human-like dexterity.
 
